@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de Palabras</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Juego de Palabras</h1>
+
+    <div id="word-display">
+        <div id="random-word-container">
+            <h2>Palabra aleatoria:</h2>
+            <p id="palabraDesordenada"></p>
+            <h2>Cantidad de Palabras Acertadas:</h2>
+            <p id="acertadas">0</p>
+        </div>
+    </div>
+
+    <div id="input-container">
+        <input class="Casilla" name="text1" type="text" maxlength="1">
+        <input class="Casilla" name="text2" type="text" maxlength="1" disabled>
+        <input class="Casilla" name="text3" type="text" maxlength="1" disabled>
+        <input class="Casilla" name="text4" type="text" maxlength="1" disabled>
+        <input class="Casilla" name="text5" type="text" maxlength="1" disabled>
+    </div>
+
+    <div>
+        <h2>Cantidad de errores:</h2>
+        <p id="error-cant">0</p>
+        <button id="reset-button">Reiniciar</button>
+        <button id="nueva-button">Nueva Palabra</button>
+    </div>
+
+    <script src="./script.js"> </script>
+</body>
+</html>
